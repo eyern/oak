@@ -282,7 +282,7 @@
                 $(this).closest('.slider-fouc').removeAttr('class');
             }).owlCarousel({
                 items:1,
-                autoplay: false,
+                autoplay: true,
                 loop: true,
                 dots: true,
                 rewind: false,
