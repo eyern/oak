@@ -657,6 +657,7 @@
     });
 
 
+
         RESHOP.initScrollUp();
         RESHOP.initTooltip();
         RESHOP.initModal();
