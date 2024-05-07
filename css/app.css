@@ -6448,5 +6448,43 @@ input::-ms-clear {
     text-decoration:none;
     color:#fff;
     margin:2px;
-  } 
+  }
+  
+/* Product-Tags */
+.tag {
+  position: absolute;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  text-transform: uppercase;
+  top: 20px;
+  right: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  color: #ffffff;
+  text-align: center; }
+  .tag span {
+    position: relative;
+    z-index: 1; }
+
+.tag.sale {
+  background: #d73925;
+  color: #ffffff; }
+
+.tag.discount {
+  background: #FFDD57;
+  color: #363636; }
+
+.tag.new {
+  background: #FF3860;
+  color: #fff; }
+
+.tag.hot {
+  background: #FF5722;
+  color: #ffffff; }
+
+.tag.tag-bottom {
+  top: 70px; } 
 
