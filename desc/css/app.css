@@ -5390,7 +5390,7 @@ input::-ms-clear {
       background-color: transparent;
       color: #333333; }
   .shop-p__pagination > li.is-active > a {
-    background-color: #f7f7f7; }
+    background-color: #ff4500; }
   .shop-p__pagination > li:not(.is-active) > a:hover {
     color: #ff4500;
     text-decoration: underline; }
